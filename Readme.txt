@@ -14,7 +14,7 @@ Click the "Neopets Sidebar Plus.user.js" file on the GitHub page. Then click the
 This will bring you to a tampermonkey confirmation screen. Install the script, and navigate to your neopets page!
 
 Firefox:
-
+[CURRENTLY BROKEN IN FIREFOX]
 Install the Greasemonkey extension [http://www.greasespot.net/] before anything else.
 Click the "Neopets Sidebar Plus.user.js" file on the GitHub page. Then click the "raw" on the next page. 
 (Alternatively, copy/paste this URL into your address bar: https://github.com/neocrunched/neopets-sidebar-plus/raw/master/Neopets%20Sidebar%20Plus.user.js)
