@@ -1,12 +1,11 @@
 // ==UserScript==
-// @name         Neopets Pet Swap Prototype
+// @name         Neopets Sidebar Plus
 // @namespace    NA
 // @version      0.1
-// @description  Neopet Portrait Swapper
-// @author       You
+// @description  A pet swapping machine!
+// @author       neocrunched
 // @include        http://www.neopets.com/*
 // @grant        GM_xmlhttpRequest
-// @grant        GM_log
 // ==/UserScript==
 
 var petNum = 1;
