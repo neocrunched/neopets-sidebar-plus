@@ -32,7 +32,6 @@ GM_xmlhttpRequest({
 var q = document.evaluate(
 		"//img[contains(@src, 'cp')]", document, null,
 		XPathResult.ORDERED_NODE_SNAPSHOT_TYPE, null);
-    //alert(elmProductImage);
     var elmProductImage = q.snapshotItem(petNum);
 
 
@@ -54,8 +53,6 @@ document.body.getElementsByClassName("sidebarHeader medText")[0].innerHTML = nam
 var details = doc.getElementById(sPet+"_details").getElementsByClassName("sf");
 var species = details[1].getElementsByTagName("b")[0].innerHTML;
 var health = details[11].innerHTML.replace(/yellow/,"orange");
-          //alert(health);
-          //alert(document.body.getElementsByClassName("activePetInfo")[0].getElementsByTagName("b")[1].innerHTML);
 var mood = details[13].getElementsByTagName("b")[0].innerHTML;
 var hunger = details[15].getElementsByTagName("b")[0].innerHTML;
 var age = details[7].innerHTML.replace(/<b>/,"").replace(/<\/b>/,"");
